@@ -1,8 +1,24 @@
+body{
+    background-color: rgba(228, 211, 211, 0.692);
+}
 .box-1{
-    width: 700px;
-    height: 300px;
+    box-sizing: content-box;
+    padding: 50px;
 }
 .box-2{
-    width: 700px;
-    height: 300px;
+    box-sizing: border-box;
+    padding: 50px;
+}
+/*******************************************************/
+.box-1{
+    width: 500px;
+    height: 200px;
+    border: 2px solid red;
+    background-color: whitesmoke;
+}
+.box-2{
+    width: 500px;
+    height: 200px;
+    border: 2px solid blue;
+    background-color: whitesmoke;
 }
