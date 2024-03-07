@@ -4,21 +4,23 @@ body{
 .box-1{
     box-sizing: content-box;
     padding: 50px;
+    border: 30px solid black;
 }
 .box-2{
     box-sizing: border-box;
     padding: 50px;
+    border: 30px solid black;
 }
 /*******************************************************/
 .box-1{
     width: 500px;
     height: 200px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: whitesmoke;
 }
 .box-2{
     width: 500px;
     height: 200px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background-color: whitesmoke;
 }
